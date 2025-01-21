@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes shrink {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0%;
+  }
+}
+
+/* Theme transition */
+:root {
+  --transition-duration: 200ms;
+}
+
+html {
+  transition: background-color var(--transition-duration) ease-in-out;
+}
+
+html.dark {
+  background-color: theme('colors.secondary.900');
+  color-scheme: dark;
+}
+
+/* Custom styles for react-toastify */
+.Toastify__toast {
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  backdrop-filter: blur(8px) !important;
+}
+
+.Toastify__toast-body {
+  font-family: 'Poppins', sans-serif !important;
+  font-size: 0.75rem !important;
+}
+
+.Toastify__progress-bar {
+  background: linear-gradient(to right, rgba(8, 145, 178, 0.7), rgba(8, 145, 178, 0.9)) !important;
+}
+
+/* Dark mode styles for toasts */
+.dark .Toastify__toast {
+  border-color: rgba(0, 0, 0, 0.2) !important;
+  background-color: rgba(30, 41, 59, 0.8) !important;
+}
+
+.dark .Toastify__close-button {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.dark .Toastify__toast-icon {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.dark .Toastify__toast-body {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
