@@ -118,8 +118,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-- Website: [convertify.app](https://convertify.app)
-- GitHub: [@yourusername](https://github.com/yourusername)
+- Website: [vishad.me](http://vishad.me)
+- GitHub: [@yourusername](https://github.com/vishadaman)
 - Twitter: [@convertifyapp](https://twitter.com/convertifyapp)
 
 ---
